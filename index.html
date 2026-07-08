@@ -1225,4 +1225,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P10:END-->
+<!--WY-C23P11:BEGIN-->
+<style id="wy-c23p11-css">
+.c23p11-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p11-fabbox.show{display:block;}
+.c23p11-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p11-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p11-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p11-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p11-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p11-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p11-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p11-modal.open{display:flex;}
+.c23p11-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p11-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p11-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p11-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p11-close:hover{background:#e3d5b8;}
+.c23p11-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p11-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p11-tbl th,.c23p11-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p11-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p11-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p11-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p11-tbl b{color:#8b2500;}
+.c23p11-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p11-note b{color:#8b2500;}
+@media(max-width:900px){.c23p11-fabbox{right:14px;}.c23p11-tbl{font-size:11.5px;}.c23p11-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p11-fabbox" id="c23p11Box"><button class="c23p11-btn" id="c23p11Btn" type="button" aria-label="開啟全景總表"><span class="c23p11-ic">▦</span><span class="c23p11-ls"><span class="c23p11-l1">本品 · 三三昧</span><span class="c23p11-l2">覺觀動力學 · 蛇入竹筒即用即捨</span></span></button></div><div class="c23p11-modal" id="c23p11Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p11-card"><button class="c23p11-close" id="c23p11Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第十一品 三三昧 · 全景總表</h3><p class="sub">卷二十三・第十一品｜正心行處蛇入竹筒・覺觀生三昧亦壞三昧・鐘槌之喻九種覺矩陣・妙而可用者取</p><table class="c23p11-tbl"><caption>一、三三昧總相與經文原文（心行空氣動力學）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>經文一句</td><td>三三昧：有覺有觀三昧，無覺有觀三昧，無覺無觀三昧——經文極簡，僅列三名不做進一步釋義，是論主二十二段論議展開之所在</td></tr><tr><td>三摩提即正心行處</td><td>一切禪定攝心皆名三摩提，秦言正心行處；心從無始世界來常曲不端，得正心行處則心端直，譬如蛇行常曲入竹筒中則直</td></tr><tr><td>三三昧非三種獨立三昧</td><td>三的本質是依覺觀這對動力變數從有→中間→無的三段刻度，對應行者從欲界粗散心到初禪二禪中間二禪以上的整段意識上升軌跡</td></tr><tr><td>三三昧的階梯</td><td>有覺有觀（初禪及未到地）、無覺有觀（禪中間·特殊過渡態）、無覺無觀（二禪以上）——一張光譜三個刻度</td></tr><tr><td>核心問題意識</td><td>論主三組環環相扣問答：心數法多達二十何以獨拈覺觀？覺觀究竟有何差別？三種法三種地三種三昧為何此處只說三三昧？</td></tr></tbody></table><table class="c23p11-tbl"><caption>二、覺觀生滅三昧與差別判準（三組問答核心）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第一問答·為何獨說覺觀</td><td>覺觀是初緣中心發相，最能代表禪定入門之動力狀態；覺觀既能生三昧（如風生雨），亦能壞三昧（如風覆舟）——三昧之賊亦覺觀</td></tr><tr><td>風雨禪舟總圖</td><td>覺是風、三昧是雨、行者之心是舟——風能生雨亦能壞雨，風能使船亦能覆船，覺觀是禪定修證中最需被精確掌握的雙刃力學</td></tr><tr><td>第二問答·覺觀差別</td><td>以鐘槌為喻：覺如以槌初擊鐘（粗心攀緣初緣）、觀如擊後餘音細轉（細心分別隨伺）——覺粗觀細，覺俶爾而起、觀是心相細分</td></tr><tr><td>九種覺矩陣</td><td>覺依所緣境粗細與心行深淺分判為多重差別相，構成覺與觀在禪定進程中精細的判準矩陣，用以辨明初禪未到地與禪中間之異</td></tr><tr><td>第三問答·三種法三種地三種三昧</td><td>三種法（覺觀相應法）、三種地（初禪未到地·禪中間·二禪以上）、三種三昧名相相似而所指層次各異，此處唯取三三昧以攝其要</td></tr></tbody></table><table class="c23p11-tbl"><caption>三、中觀統攝與實修三心法（究竟收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>妙而可用者取</td><td>篩網與漏斗之喻：覺觀在禪定進程中或粗或細、或生或壞，行者須辨明何者當下妙而可用，善加運用而不執取固定名相</td></tr><tr><td>究竟三昧</td><td>從有覺有觀漸次過渡至無覺無觀，是覺觀動力由生轉息的完整光譜；究竟三昧非壓伏覺觀，而是覺觀功能圓熟後的自然止息</td></tr><tr><td>借風入流·捨筏登岸</td><td>覺觀如風助舟行，然登岸後風（覺觀）當捨——修行工具性地借助覺觀入定，證量成熟後不復滯著於覺觀本身</td></tr><tr><td>緣起無自性</td><td>覺觀、三昧、乃至三種地之名相分判，皆是緣起施設，非有自性可得——中觀視角下三三昧之判教是善巧方便非究竟分類</td></tr><tr><td>實修三心法</td><td>一者辨覺觀之粗細以入禪；二者知覺觀能生亦能壞三昧而不恃著；三者妙而可用者取、不妙者捨，即用即捨方為究竟</td></tr></tbody></table><p class="c23p11-note">三三昧一品篇幅雖短，卻精準地把禪定境界從相應心數的籠統列舉，切換到「覺、觀」這個單一可操作的核心變數。以「<b>蛇入竹筒</b>」喻正心行處非滅心而是賦形，以「風雨禪舟」喻覺觀既能生三昧亦能壞三昧——行者必須學會即用即捨。從有覺有觀到無覺無觀的光譜遞進，正是禪定動力學由生轉息的完整寫照，終歸於緣起無自性、妙而可用者取的中觀智慧。</p></div></div>
+<script id="wy-c23p11-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p11Btn"),BOX=document.getElementById("c23p11Box"),MODAL=document.getElementById("c23p11Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=10;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p11Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P11:END-->
 </body></html>
