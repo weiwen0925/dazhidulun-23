@@ -748,4 +748,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P1:END-->
+<!--WY-C23P2:BEGIN-->
+<style id="wy-c23p2-css">
+.c23p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p2-fabbox.show{display:block;}
+.c23p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p2-modal.open{display:flex;}
+.c23p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p2-close:hover{background:#e3d5b8;}
+.c23p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p2-tbl th,.c23p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p2-tbl b{color:#8b2500;}
+.c23p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p2-note b{color:#8b2500;}
+@media(max-width:900px){.c23p2-fabbox{right:14px;}.c23p2-tbl{font-size:11.5px;}.c23p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p2-fabbox" id="c23p2Box"><button class="c23p2-btn" id="c23p2Btn" type="button" aria-label="開啟全景總表"><span class="c23p2-ic">▦</span><span class="c23p2-ls"><span class="c23p2-l1">本品 · 無常想</span><span class="c23p2-l2">念念生滅入空門 · 是無故無常亦無</span></span></button></div><div class="c23p2-modal" id="c23p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p2-card"><button class="c23p2-close" id="c23p2Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第二品 無常想 · 全景總表</h3><p class="sub">卷二十三・第二品｜著常顛倒・少分具足二無常・一念生住滅性相違・悉檀假名破邪見</p><table class="c23p2-tbl"><caption>一、五番問答總骨架（本品主脈）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>定義</td><td>觀一切有為法無常，智慧相應相，是名無常想——新新生滅、屬因緣、不增積，生無來處滅無去處</td></tr><tr><td>動機（第一問答）</td><td>眾生著常顛倒故受眾苦不得免生死，菩薩修無常想教化眾生「莫著常顛倒，失行道時」，無常行為四諦苦諦之初門</td></tr><tr><td>誤區（第二三問答）</td><td>國王憂夫人易逝公案顯示「見無常反生執著」——此僅知無常少分，與禽獸畏冬囤食無異，佛特囑「當具足修無常想」</td></tr><tr><td>正觀（第四問答）</td><td>具足無常想＝觀念念生滅，如風吹塵、山上水流、火焰隨滅，無牢無強不可取著，如幻化誑惑凡夫</td></tr><tr><td>空門（第五問答）</td><td>因是無常得入空門，空中一切法不可得，一念中生住滅性相違故無，是無故無常亦無——連無常本身亦不可執實</td></tr></tbody></table><table class="c23p2-tbl"><caption>二、少分與具足對照·三喻觀心（辯證核心）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>少分無常</td><td>對象所畏所為：禽獸畏冬囤食、凡夫畏老貪青春；見無常而生抓取，導向稀缺心態與結使</td></tr><tr><td>具足無常</td><td>觀照尺度由「一段時間後壞滅」轉為「每一念生滅」——從宏觀消逝到微觀生滅的決定性轉折</td></tr><tr><td>三喻觀心</td><td>風吹塵（無片刻凝住）、山上水流（前水非後水）、火焰隨滅（焰生即滅）——共顯無牢無強、不可取不可著</td></tr><tr><td>一念生住滅性相違</td><td>生時不得有住滅，住時不得有生滅，滅時不得有生住——三相性質互違，一念中無真實生住滅可得，故無常亦無</td></tr><tr><td>有餘無餘·身死新新</td><td>有餘無常（人物滅盡名尚存）與無餘無常（名亦滅）；身死盡滅（宏觀）與新新生滅（微觀）二觀相互呼應</td></tr></tbody></table><table class="c23p2-tbl"><caption>三、悉檀假名與聖道別名（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>悉檀三步</td><td>診斷（凡夫執常見·病）→處方（說無常以破常見·藥）→本質（不為無常是實故說）——以假名破邪見</td></tr><tr><td>遮與拔之別</td><td>世俗道僅「遮」伏煩惱、外道以形離五欲為解脫；佛道則「拔」煩惱根本，觀無常正相而得真解脫</td></tr><tr><td>聖道別名</td><td>無常想即聖道別名，佛以異名說道——或言四念處、或言四諦、或言無常想，名異體同，能斷欲愛色愛無色愛及掉慢無明</td></tr><tr><td>有漏無漏</td><td>正得無常是無漏，初學無常是有漏；摩訶衍中菩薩心廣大，為教化眾生故無常想亦通有漏無漏</td></tr><tr><td>中觀實踐</td><td>以無常為舟，行於中道——空性（不著世間）與慈悲（不捨眾生）以無常想為支點而平衡</td></tr></tbody></table><p class="c23p2-note">無常想的辯證旅程完整一周：<b>病——著常顛倒；藥——具足無常；破——無常亦空；用——借假修真、自度度人</b>。從國王憂逝的少分執取，到一念生住滅性相違的極限邏輯，龍樹步步推翻對「無常」本身的實有執著——無常是入道第一行，也是貫穿空、悲二門的舟楫，於此一念之中，生住滅實不可得。</p></div></div>
+<script id="wy-c23p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p2Btn"),BOX=document.getElementById("c23p2Box"),MODAL=document.getElementById("c23p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P2:END-->
 </body></html>
