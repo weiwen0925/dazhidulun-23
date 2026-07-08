@@ -801,4 +801,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P2:END-->
+<!--WY-C23P3:BEGIN-->
+<style id="wy-c23p3-css">
+.c23p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p3-fabbox.show{display:block;}
+.c23p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p3-modal.open{display:flex;}
+.c23p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p3-close:hover{background:#e3d5b8;}
+.c23p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p3-tbl th,.c23p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p3-tbl b{color:#8b2500;}
+.c23p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p3-note b{color:#8b2500;}
+@media(max-width:900px){.c23p3-fabbox{right:14px;}.c23p3-tbl{font-size:11.5px;}.c23p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p3-fabbox" id="c23p3Box"><button class="c23p3-btn" id="c23p3Btn" type="button" aria-label="開啟全景總表"><span class="c23p3-ic">▦</span><span class="c23p3-ls"><span class="c23p3-l1">本品 · 苦想</span><span class="c23p3-l2">愛著為苦源 · 身心二苦與解脫總公式</span></span></button></div><div class="c23p3-modal" id="c23p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p3-card"><button class="c23p3-close" id="c23p3Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第三品 苦想 · 全景總表</h3><p class="sub">卷二十三・第三品｜無常故苦公理與悖論・愛著修正方程式・身苦心苦二支箭・五受眾皆苦</p><table class="c23p3-tbl"><caption>一、公理、悖論與修正方程式（邏輯起點）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>公理</td><td>一切有為法無常故苦——凡依因緣造作之事物皆會變化滅去，終將敗壞不可永保，其本質便是苦</td></tr><tr><td>悖論</td><td>若無常即苦，則諸賢聖人有為無漏法（道）亦是有為無常，豈非以苦離苦？聖道修行豈非也是苦？</td></tr><tr><td>修正方程式</td><td>諸法雖無常，愛著者生苦，無所著者無苦——苦的真正變數不是無常本身，而是主觀心靈的愛著抓取</td></tr><tr><td>道非苦之理</td><td>道雖作法故無常，但能滅苦、不生諸著，與空無我等智和合，故但是無常而非苦，以苦離苦之矛盾不存在</td></tr><tr><td>案例對照</td><td>佛涅槃時，未離欲之阿難涕泣憂愁，離欲阿那含驚愕，漏盡阿羅漢其心不變——苦來自反應，而非事件本身</td></tr></tbody></table><table class="c23p3-tbl"><caption>二、身苦心苦二分與信號雜訊心法（操作核心）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>二種苦</td><td>身苦（五識相應苦及外因緣杖楚寒熱等）與心苦（憂愁嫉妒瞋恚等）——聖人以智慧力已斷心苦，但身苦（老病飢渴）仍薄少存在</td></tr><tr><td>第二支箭</td><td>凡夫失所愛物身心俱受苦，如二箭雙射；聖人止於第一箭（身苦），無憂愁苦更無餘苦（不自射第二箭）</td></tr><tr><td>信號與雜訊</td><td>前五識相應之苦（杖楚寒熱）為身苦訊號，聖人保留覺知；由此再生憂愁瞋恚為心苦雜訊，聖人斷除演繹不放大</td></tr><tr><td>償債觀</td><td>了了知負他債，償之不以為苦；不憶負債被強奪則瞋惱生苦——聖人視病痛為償還宿業，心態坦然故苦薄少</td></tr><tr><td>末後身</td><td>聖人身仍是有漏，有漏法則苦，然此末後身受苦亦微少——承認有漏則苦並不損其解脫</td></tr></tbody></table><table class="c23p3-tbl"><caption>三、五受眾皆苦與解脫總公式（究竟收束）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>假樂四層拆解</td><td>如人塗瘡大痛暫息以為樂（瘡非樂）；樂無定相（不待因緣，如火實熱恆熱，樂則須待條件）；姿勢疲勞循環（初樂後則苦）；大河水中毒（顛倒樂招後世無量苦果）</td></tr><tr><td>天上憶樂偈</td><td>從天墮地獄時憶本天上歡樂事，反倍增痛苦——曾經之樂非但救不了當下，反成加重折磨之利刃，樂以苦為本</td></tr><tr><td>滅五受眾名為樂</td><td>若五受眾中實有樂，佛何以說滅五受眾名為樂？真正的樂不在五蘊之內，而在苦的容器（五蘊）徹底止息</td></tr><tr><td>解脫總公式</td><td>（無常＋愛著）×無明＝輪迴苦；（無常＋道）×智慧＝解脫——同樣的無常，乘以無明愛著成輪迴，乘以智慧道業成解脫</td></tr><tr><td>三把鑰匙</td><td>拔除第二支箭（分清身心苦邊界）、歡喜還債（視病痛為償業坦然受之）、塗瘡之樂（看清世間樂僅是痛息假樂）</td></tr></tbody></table><p class="c23p3-note">苦想由「無常故苦」公理出發，經「愛著才是真正變數」之修正、「身苦心苦」之二分、「信號雜訊」之覺知心法，層層拆穿「假樂」，終收束於「<b>滅五受眾名為樂</b>」的解脫總公式。這套「一切皆苦」的觀法並非悲觀，而是如實——隨順因緣接受身苦，但不生愛著而斷除心苦，正是中觀現實主義的具體展開。</p></div></div>
+<script id="wy-c23p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p3Btn"),BOX=document.getElementById("c23p3Box"),MODAL=document.getElementById("c23p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P3:END-->
 </body></html>
