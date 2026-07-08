@@ -1119,4 +1119,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P8:END-->
+<!--WY-C23P9:BEGIN-->
+<style id="wy-c23p9-css">
+.c23p9-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p9-fabbox.show{display:block;}
+.c23p9-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p9-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p9-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p9-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p9-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p9-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p9-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p9-modal.open{display:flex;}
+.c23p9-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p9-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p9-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p9-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p9-close:hover{background:#e3d5b8;}
+.c23p9-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p9-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p9-tbl th,.c23p9-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p9-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p9-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p9-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p9-tbl b{color:#8b2500;}
+.c23p9-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p9-note b{color:#8b2500;}
+@media(max-width:900px){.c23p9-fabbox{right:14px;}.c23p9-tbl{font-size:11.5px;}.c23p9-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p9-fabbox" id="c23p9Box"><button class="c23p9-btn" id="c23p9Btn" type="button" aria-label="開啟全景總表"><span class="c23p9-ic">▦</span><span class="c23p9-ls"><span class="c23p9-l1">本品 · 離想</span><span class="c23p9-l2">一法三說 · 體一用三與同心圓路徑</span></span></button></div><div class="c23p9-modal" id="c23p9Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p9-card"><button class="c23p9-close" id="c23p9Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第九品 離想 · 全景總表</h3><p class="sub">卷二十三・第九品｜一想便足何以說三・伐大樹譬喻邏輯・四加行有餘無餘涅槃・體一用三不一不異</p><table class="c23p9-tbl"><caption>一、核心邏輯困境與三想定義辨析（破題與定分）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>邏輯困境</td><td>涅槃只有一個，為何要拆成斷離盡三個名相？名相多不等於法體多——論主自設疑問：若爾者，一想便足，何以說三？</td></tr><tr><td>三段式論證</td><td>類比論證（如前一法三種說：無常即是苦苦即是無我）＋緣由解釋（一切世間罪惡深重故三種呵）＋譬喻收束（如伐大樹不可一下斷）</td></tr><tr><td>離想定義</td><td>離愛故名為離——對治愛（貪愛執著），功能是建立與貪愛的距離，性質是修行初步、通往解脫的門戶，先拉開距離方能看清全貌</td></tr><tr><td>斷想定義</td><td>斷三毒故名為斷——對治三毒（貪瞋癡），功能是根本斬斷煩惱病根，性質是智慧利刃直斷結使，是無漏智慧正式介入</td></tr><tr><td>盡想定義</td><td>滅一切苦更不生名為盡——對治一切苦／五受眾，功能是連殘存業果也徹底平息，性質是絕對止息不再生起</td></tr></tbody></table><table class="c23p9-tbl"><caption>二、伐大樹三階次第與修證階位地圖（動態展開）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>伐大樹三義</td><td>心法：不要幻想一夕成佛；現實：煩惱如盤根錯節千年神木不可能一斧解決；策略：漸次剝落步步為營</td></tr><tr><td>三階段對應</td><td>修剪枝葉（離想·遠離粗重貪愛）→斬斷樹幹（斷想·無漏智斷結使）→掘除根株（盡想·滅盡更不相續）——由外圍漸入、直擊核心、徹底止息</td></tr><tr><td>離想階位</td><td>四加行位（煖頂忍世第一法），動作是正智慧觀遠諸煩惱，狀態是有漏無漏之交界，二涅槃之方便門</td></tr><tr><td>斷想階位</td><td>見道位以上（得無漏道），行者證無漏智慧正式斷諸結使，煩惱已斷但肉身尚在，故名有餘涅槃——如薪火已斷餘熱尚存</td></tr><tr><td>盡想階位</td><td>入涅槃時，聖人入滅捨棄肉身，滅五受眾不復相續，連承載痛苦的五蘊身心也徹底熄滅，故名無餘涅槃——薪盡火滅了無痕跡</td></tr></tbody></table><table class="c23p9-tbl"><caption>三、中觀一法多名與十想終結（究竟統合）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>體一用三</td><td>涅槃實相唯一不可言說（體），世俗諦中為引導不同根器眾生假立斷離盡三名（用）——三想同指一涅槃，皆是對微妙法的讚歎</td></tr><tr><td>藉假修真二諦觀</td><td>俗諦（離·方便門）與真諦（盡·空性）有縱深關係——若不依俗諦不得第一義，必先依離想方便拾級而上，才能契入盡想空性</td></tr><tr><td>空亦復空</td><td>盡想極致是真正畢竟空，不僅沒有煩惱，連我正在享受涅槃的載體（五受眾）也必須空掉——徹底的無所得</td></tr><tr><td>一切地中攝</td><td>三想有漏無漏故，橫跨凡夫方便修行到聖者究極解脫的一切地——並非彼此孤立的三件事，而是統攝凡聖、貫通有漏無漏的完整修證系統</td></tr><tr><td>十想終結偈</td><td>涅槃微妙法，昔所未得，是故種種讚——名相雖三所指唯一，眾生因罪惡深重故須三種呵種種讚，依次第漸修終至滅五受眾不復相續的無餘寂滅，十想竟</td></tr></tbody></table><p class="c23p9-note">離想一品以「一想便足，何以說三」的自設疑難，把整個涅槃修證次第收束為完整解答：涅槃<b>體一用三</b>，如伐大樹不可一下斷，須經修剪枝葉（離）、斬斷樹幹（斷）、掘除根株（盡）三階段，方能由四加行位經有餘涅槃抵達無餘涅槃。三想不一不異，同指一法，眾生因罪惡深重故須三種讚嘆——至此，《大智度論》釋十想之義圓滿，始於足下，終於無餘。</p></div></div>
+<script id="wy-c23p9-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p9Btn"),BOX=document.getElementById("c23p9Box"),MODAL=document.getElementById("c23p9Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=8;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p9Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P9:END-->
 </body></html>
