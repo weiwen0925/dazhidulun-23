@@ -960,4 +960,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P5:END-->
+<!--WY-C23P6:BEGIN-->
+<style id="wy-c23p6-css">
+.c23p6-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p6-fabbox.show{display:block;}
+.c23p6-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p6-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p6-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p6-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p6-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p6-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p6-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p6-modal.open{display:flex;}
+.c23p6-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p6-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p6-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p6-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p6-close:hover{background:#e3d5b8;}
+.c23p6-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p6-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p6-tbl th,.c23p6-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p6-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p6-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p6-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p6-tbl b{color:#8b2500;}
+.c23p6-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p6-note b{color:#8b2500;}
+@media(max-width:900px){.c23p6-fabbox{right:14px;}.c23p6-tbl{font-size:11.5px;}.c23p6-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p6-fabbox" id="c23p6Box"><button class="c23p6-btn" id="c23p6Btn" type="button" aria-label="開啟全景總表"><span class="c23p6-ic">▦</span><span class="c23p6-ls"><span class="c23p6-l1">本品 · 世間不可樂想</span><span class="c23p6-l2">眾生土地雙惡 · 二諦別觀</span></span></button></div><div class="c23p6-modal" id="c23p6Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p6-card"><button class="c23p6-close" id="c23p6Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第六品 一切世間不可樂想 · 全景總表</h3><p class="sub">卷二十三・第六品｜樂想厭想一念之間・眾生六煩惱無間罪・土地三界無樂・見修三維辨析</p><table class="c23p6-tbl"><caption>一、機制建立與眾生之惡（本品前半骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>樂想厭想機制</td><td>若念世間色欲滋味車乘服飾等樂事則生樂想，若念世間眾惡罪事則生厭想——同一世間差別只在心念取哪一面</td></tr><tr><td>世間雙重定義</td><td>世間由「眾生」（能感受造業輪迴之主體）與「土地」（所依環境）兩維構成，此雙軸切法讓厭離心不再單依附人或處</td></tr><tr><td>八苦輪轉</td><td>生老病死（身心過程之物理事實）＋恩愛別離怨憎會求不得（關係與欲望之心理事實）＋五受眾苦（有取之蘊為根本苦）</td></tr><tr><td>六根本煩惱</td><td>婬欲（與禽獸無異）、瞋恚（入大闇中）、愚癡（如搆角求乳）、慳貪（其舍如塚）、憍慢（憍逸自壞）、邪見（不可共處）——六惑纏結終致無間罪</td></tr><tr><td>無間罪</td><td>六惑熾盛極致：或殺父母或傷害賢聖，或要時榮貴讒賊忠貞殘害親戚——五逆重罪死後直墮無間地獄</td></tr></tbody></table><table class="c23p6-tbl"><caption>二、世間的偽裝與土地之惡（別觀深化）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>表裡不一四象限</td><td>善行而貧賤（有德無福）、富貴而惡行（有福無德）、好布施而貧乏（有願無資）、富有而慳惜（有資無願）——福德雙具者極少，世間常態即錯位</td></tr><tr><td>眾生相誤讀</td><td>默無所說被謂憍高自畜、好下接物被謂欺誑諂飾、能語善論被謂憍慢、質直好人反遭欺誑調捉、善心柔濡反被輕陵踏蹴、持戒清淨者被謂矯異</td></tr><tr><td>無處可逃</td><td>寒熱飢渴、疾病惡疫、毒氣侵害、老病死畏無處不有——身所去處眾苦隨之，有身即有苦，非某地特苦</td></tr><tr><td>樂土迷思</td><td>雖有好國豐樂安隱，仍多為諸煩惱所惱則不名樂土；一切皆有身苦心苦無國不有——樂土不是地理問題，是心的問題</td></tr><tr><td>上二界崩塌</td><td>色界無色界看似安樂長壽寂靜，然死時退時大生懊惱甚於下界，譬如極高處墮摧碎爛壞——禪定愈高下墮愈痛，三界無一處可樂</td></tr></tbody></table><table class="c23p6-tbl"><caption>三、三維邏輯辨析與中觀統攝（收束總結）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>總別之辨</td><td>前三想（無常苦無我）是總觀·廣角鏡，呵一切法之萬用公式；此想是別觀·顯微鏡，觀具體眾生罪惡與土地惡，讓厭離從知道變成感同身受</td></tr><tr><td>法眾生之辨</td><td>前三想呵一切法（解剖五蘊見性空）；此想觀眾生罪（直視社會人性具體醜陋）——法觀讓人明理，眾生觀讓人看見</td></tr><tr><td>見修之辨</td><td>前三想屬無漏見諦道（斷見惑，智慧之劍一次性突破）；此想屬有漏思惟道（斷思惑，修行之刷每日反覆習氣清洗）</td></tr><tr><td>藉假修真</td><td>有漏道如洗去油垢的肥皂，肥皂本身非目的但清潔過程不可少——對特定貪愛用特定厭離對治，見到勝義時自然鬆開不成新執著</td></tr><tr><td>二諦雙運</td><td>勝義諦理空不廢事（理解空性不妨礙看見苦難）；世俗諦事有向無漏（藉觀眾生土地惡生厭離趨向解脫）——知世間苦即是出世間樂</td></tr></tbody></table><p class="c23p6-note">一切世間不可樂想並非教人厭世避俗，而是修行人在無常苦無我三想之後，把鏡頭從<b>總觀之抽象</b>聚焦到眾生與土地的<b>別觀之具體</b>。從六根本煩惱到無間罪、從表裡不一的四象限到相互誤讀的人性、從無處可逃的環境苦到上二界的崩塌，龍樹以三維（總別·法眾生·見修）辨析證成此想的獨立必要性，終以二諦雙運收攝——世俗厭三界以治貪愛，勝義空萬法以治厭離本身，厭離不再變成新的執著。</p></div></div>
+<script id="wy-c23p6-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p6Btn"),BOX=document.getElementById("c23p6Box"),MODAL=document.getElementById("c23p6Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=5;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p6Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P6:END-->
 </body></html>
