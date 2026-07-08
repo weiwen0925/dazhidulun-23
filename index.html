@@ -1172,4 +1172,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C23P9:END-->
+<!--WY-C23P10:BEGIN-->
+<style id="wy-c23p10-css">
+.c23p10-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c23p10-fabbox.show{display:block;}
+.c23p10-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c23p10-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c23p10-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c23p10-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c23p10-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c23p10-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c23p10-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c23p10-modal.open{display:flex;}
+.c23p10-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c23p10-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c23p10-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c23p10-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c23p10-close:hover{background:#e3d5b8;}
+.c23p10-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c23p10-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c23p10-tbl th,.c23p10-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c23p10-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c23p10-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c23p10-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c23p10-tbl b{color:#8b2500;}
+.c23p10-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c23p10-note b{color:#8b2500;}
+@media(max-width:900px){.c23p10-fabbox{right:14px;}.c23p10-tbl{font-size:11.5px;}.c23p10-card{padding:26px 14px 16px;}}
+</style>
+<div class="c23p10-fabbox" id="c23p10Box"><button class="c23p10-btn" id="c23p10Btn" type="button" aria-label="開啟全景總表"><span class="c23p10-ic">▦</span><span class="c23p10-ls"><span class="c23p10-l1">本品 · 十一智釋論</span><span class="c23p10-l2">分別智至如實智 · 萬流歸海</span></span></button></div><div class="c23p10-modal" id="c23p10Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c23p10-card"><button class="c23p10-close" id="c23p10Close" type="button" aria-label="關閉">×</button><h3>卷二十三·第十品 釋十一智論 · 全景總表</h3><p class="sub">卷二十三・第十品｜十一智全景四組架構・阿毘曇精密定義・對治悉檀四諦命名・如實智唯佛獨有</p><table class="c23p10-tbl"><caption>一、十一智全景與阿毘曇精密定義（分別智基礎）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>十一智標目</td><td>法智、比智、他心智、世智、苦智、集智、滅智、道智、盡智、無生智、如實智——前十智三乘共有皆有相有緣，如實智唯佛獨有無相無緣</td></tr><tr><td>四組架構</td><td>依範圍推論（法智比智他心智世智）、四諦觀（苦集滅道四智）、修證結果（盡智無生智）、究竟（如實智）——十一智並非散漫清單而有清晰內在結構</td></tr><tr><td>法智與比智</td><td>法智是直觀欲界繫法四諦所起無漏智；比智是類推色無色界亦復如是——法智主直觀，比智主類推，二者合觀遍攝三界四諦</td></tr><tr><td>他心智與世智</td><td>他心智緣他人現在心心數法；世智是世俗有漏智，能知世間種種假名施設，通有漏無漏而多分屬有漏</td></tr><tr><td>盡智無生智如實智</td><td>盡智無生智是無學位阿羅漢證境標誌（我生已盡等四句智）；如實智總攝一切、唯佛獨證，滅諸觀法，是分別智橋樑通向無二的終點</td></tr></tbody></table><table class="c23p10-tbl"><caption>二、十智所緣相攝與中觀重釋（水面下的解構）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>兩重解讀結構</td><td>水面上是阿毘曇式名相精確界說（十智分別）；水面下是中觀邏輯與悉檀（主從邏輯、假名邏輯、對治悉檀）——論主先分別後解構</td></tr><tr><td>十六行相與修證次第</td><td>十智所緣、相攝、與根三昧想相應，配合四諦十六行相，貫穿加行位、見道十六心、修道，構成聲聞解脫道完整智慧地圖</td></tr><tr><td>主從邏輯與假名屋喻</td><td>中觀重釋揭示十智名相背後有主從邏輯——如屋喻，名相是假名施設的建構物，非究竟實有，須依緣起性空重新安立</td></tr><tr><td>對治悉檀·命名悖論</td><td>四諦以苦集滅道命名，實為對治悉檀之深層心理設計——著樂畏苦的眾生須先示苦諦，四諦命名本身即是善巧方便而非究竟分類</td></tr><tr><td>有漏無漏之判</td><td>十智橫跨有漏無漏，然皆仍「有相有緣有觀法」，屬分別智範疇，尚未達到滅諸觀法的無二實相</td></tr></tbody></table><table class="c23p10-tbl"><caption>三、如實智與萬流歸海（究竟統合）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>如實智定位</td><td>唯佛獨有，無相無緣無別，滅諸觀法——不同於前十智之分別觀察，如實智直證諸法實相，是分別智通向無二實相智的臨界</td></tr><tr><td>萬流歸海之喻</td><td>從十智到如實智，如同江河眾流匯入大海，捨棄各自本名字而唯名大海——十智名相雖多終將收攝於一味如實</td></tr><tr><td>三眼統攝</td><td>肉眼、法眼、佛眼層層遞進，對應十智由淺入深的觀照層次，終至佛眼如實智圓滿一切種智</td></tr><tr><td>二諦圓融</td><td>阿毘曇之精密分別（世俗諦善巧）與中觀之緣起性空（勝義諦實相）非對立而互為門戶——十智為方便階梯，如實智為究竟所依</td></tr><tr><td>全品定位</td><td>本品架起聲聞解脫道與大乘般若道之橋樑，讓修學者循分別智一步步邁向唯佛獨證的如實智，是十想終結後智慧體系的進一步深化</td></tr></tbody></table><p class="c23p10-note">十一智釋論承十想之後，以阿毘曇門精密定義法智、比智乃至盡智、無生智十種分別智，逐一釐清其所緣相攝與相應行相，鋪陳出聲聞解脫道完整的智慧地圖；繼而以中觀重釋，揭示這些名相背後的<b>主從邏輯、假名施設與對治悉檀</b>。十智雖多，終如萬流歸海，捨本名字而唯名大海——最後收於唯佛獨證、無相無緣、滅諸觀法的如實智，完成從分別到無二的智慧躍升。</p></div></div>
+<script id="wy-c23p10-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c23p10Btn"),BOX=document.getElementById("c23p10Box"),MODAL=document.getElementById("c23p10Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=9;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#floatVideo,.float-video,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c23p10Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C23P10:END-->
 </body></html>
