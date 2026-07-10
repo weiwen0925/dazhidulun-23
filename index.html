@@ -2058,4 +2058,52 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH23P3:END-->
+<!--WY-BH23P4:BEGIN-->
+<style id="wy-bh23p4-css">
+.bh23p4-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh23p4-fabbox.show{display:block;}
+.bh23p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh23p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh23p4-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh23p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh23p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh23p4-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh23p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh23p4-modal.open{display:flex;}
+.bh23p4-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh23p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh23p4-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh23p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh23p4-close:hover{background:#dde2e6;}
+.bh23p4-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh23p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh23p4-tbl th,.bh23p4-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh23p4-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh23p4-tbl thead th:nth-child(1){width:32%;}.bh23p4-tbl thead th:nth-child(2){width:41%;}.bh23p4-tbl thead th:nth-child(3){width:27%;}
+.bh23p4-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh23p4-guan{background:#eef2f5;color:#37505f;}
+.bh23p4-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh23p4-tbl tbody tr:nth-child(even) td.bh23p4-guan{background:#e8eef2;}
+.bh23p4-tbl b{color:#8b2500;}
+.bh23p4-guan b{color:#2f6b5a;}
+.bh23p4-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh23p4-note b{color:#8b2500;}
+@media(max-width:900px){.bh23p4-fabbox{right:14px;}.bh23p4-tbl{font-size:11px;}.bh23p4-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh23p4-fabbox" id="bh23p4Box"><button class="bh23p4-btn" id="bh23p4Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh23p4-ic">譯</span><span class="bh23p4-ls"><span class="bh23p4-l1">本品 · 原文·白話·中觀</span><span class="bh23p4-l2">白話翻譯表</span></span></button></div><div class="bh23p4-modal" id="bh23p4Modal" role="dialog" aria-modal="true"><div class="bh23p4-card"><button class="bh23p4-close" id="bh23p4Close" type="button" aria-label="關閉">×</button><h3>卷二十三 · 第4品 白話翻譯表（無我想）</h3><p class="sub">大智度論卷二十三·無我想 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh23p4-tbl"><caption>無我想 · 原文｜白話翻譯｜中觀概念（共13段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh23p4-src">「無我想」者，苦則是無我。所以者何？五受眾中盡皆是苦相，無有自在，若無自在是則無我；若有我自在者，不應令身有苦。如所說：</td><td>所謂「無我想」：苦就是無我。為什麼？五受眾全都是苦相、無有自在；既無自在就是無我。若真有能自在的「我」，就不該讓自己的身受苦。如偈所說：</td><td class="bh23p4-guan"><b>苦故無我</b>——苦則無自在、無自在則無我；有我不應令身受苦。</td></tr><tr><td class="bh23p4-src">復次，我相不可得故無我。一切法有相故則知有，如見煙覺熱，故知有火；於五塵中各各別異，故知有情；種種思惟籌量諸法故，知有心心數法。此我無相，故知無我。</td><td>再者，因「我」的相不可得，所以無我。一切法有相才知其有：如見煙知有火；於五塵各各分別故知有情境；種種思惟籌量諸法故知有心心數法。但這「我」卻無相可得，所以知道無我。</td><td class="bh23p4-guan"><b>我相不可得</b>——諸法有相可知，我無相可得，故無我。</td></tr><tr><td class="bh23p4-src">問曰有出入氣，則是我相；視眴、壽命心、苦樂、愛憎、精懃等是我相。若無我，誰有是出入息、視眴、壽命心、苦樂、愛憎、精懃等？當知有我在內動發故。壽命心亦是我法。若無我，如牛無御。有我故能制心入法，不為放逸；若無我者，誰制御心？受苦樂者是我。若無我者，為如樹木，則不應別苦樂！愛憎、精懃亦如是。我雖微細，不可以五情知，因是相故，可知為有。</td><td>（外道問：）有出入的氣息就是「我」相；眨眼、壽命之心、苦樂、愛憎、精勤等都是我相。若無我，誰有這些？當知有個「我」在內推動。壽命之心也是我法；若無我，就如牛無人駕御——有我才能制心入法、不放逸，無我誰來制御心？受苦樂的是我；若無我，就如樹木不應分別苦樂！我雖微細、不能以五情知，但憑這些相就可知它存在。</td><td class="bh23p4-guan"><b>立我之難</b>——外道以息·眴·壽·苦樂等為我相，欲證有我。</td></tr><tr><td class="bh23p4-src">答曰是諸相皆是識相。有識，則有入出息、視眴、壽命等；若識離身則無。汝等我常遍故，死人亦應有視眴、入出息、壽命等！</td><td>（答：）這些相全都是「識」的相：有識才有出入息、眨眼、壽命等；識若離身就都沒有了。你們主張「我」常住周遍，那死人也應該有眨眼、出入息、壽命才對（可見那些都是識相、非我）！</td><td class="bh23p4-guan"><b>破我·諸相識相</b>——息眴壽苦樂皆識相；識離則無、死人不具，故非常遍之我。</td></tr><tr><td class="bh23p4-src">復次，出入息等是色法，隨心風力故動發。此是識相，非我相。壽命是心不相應行，亦是識相。</td><td>再者，出入息等是色法、隨心的風力而動發，這是識相、不是我相；壽命是「心不相應行」，也是識相。</td><td class="bh23p4-guan"><b>息壽屬識</b>——出入息(色)·壽命(不相應行)皆識相，非我。</td></tr><tr><td class="bh23p4-src">苦樂、憎愛、精懃等，是心相應，共緣，隨心行；心有故便有，心無故便無。以是故，是識相，非我相。</td><td>苦樂、憎愛、精勤等是「心相應法」，與心共緣、隨心而行；心有它們就有、心無它們就無。所以這些也是識相、不是我相。</td><td class="bh23p4-guan"><b>苦樂屬心相應</b>——隨心有無，故是識相，非常一之我。</td></tr><tr><td class="bh23p4-src">復次，若有我者，我有二種：若常、若無常。如說：</td><td>再者，若真有「我」，這我不外二種：或是常、或是無常。如偈所說（下辨二者皆不成）：</td><td class="bh23p4-guan"><b>常無常二難</b>——立我則落常／無常，二皆有過。</td></tr><tr><td class="bh23p4-src">亦無妄無作，以是故當知：無作罪福者，亦無有受者。捨我及我所，然後得涅槃；若實有我者，不應捨我心。若我無常者，則應隨身滅；如大岸墮水，亦無有罪福。」</td><td>（偈說：）若我是常，則無所造作變動，那就沒有造罪福的人、也沒有受報的人；捨掉「我」與「我所」，然後才得涅槃。若真有實我，就不該教人捨我心；若我是無常，就應隨身而滅，如高岸崩墮入水，那也就無所謂罪福了（故常、無常之我皆不成）。</td><td class="bh23p4-guan"><b>常我無作·無常我隨滅</b>——常則無罪福受者、無常則隨身滅，我不成立。</td></tr><tr><td class="bh23p4-src">如是，我及知者、不知者，作者、不作者，如檀波羅蜜中說。不得是我相故，知一切法中無我；若知一切法中無我，則不應生我心。若無我，亦無我所心，我、我所離故，則無有縛；若無縛，則是涅槃。是故行者應行無我想。</td><td>這樣，「我」以及能知者／不知者、作者／不作者，如〈檀波羅蜜〉中所說皆不可得。因得不到「我」相，故知一切法中無我；若知無我，就不該再生「我」念。無我，也就無「我所」念；我與我所都遠離，就無繫縛；無繫縛就是涅槃。所以行者應修「無我想」。</td><td class="bh23p4-guan"><b>我我所離則涅槃</b>——不得我相故無我，我我所俱離則無縛、即涅槃。</td></tr><tr><td class="bh23p4-src">答曰是一事，所謂受有漏法。觀門分別故，有三種異：無常行相應，是「無常想」；苦行相應，是「苦想」；無我行相應，是「無我想」。無常，不令入三界；苦，令知三界罪過；無我，則捨世間。</td><td>（無常苦無我三想有何別？）其實是同一件事——都是觀「受（有漏）法」；只因觀門角度不同，才有三種差異：與無常行相應是「無常想」、與苦行相應是「苦想」、與無我行相應是「無我想」。無常令人不入三界，苦令人知三界罪過，無我令人捨離世間。</td><td class="bh23p4-guan"><b>一法三觀門</b>——同觀有漏受，隨行相分無常／苦／無我三想。</td></tr><tr><td class="bh23p4-src">復次，無常，生厭心；苦，生畏怖；無我，出拔令解脫。</td><td>再者，無常令人生厭離心，苦令人生畏怖心，無我則把人拔出、令得解脫。</td><td class="bh23p4-guan"><b>三想功用</b>——無常生厭、苦生畏、無我拔出解脫。</td></tr><tr><td class="bh23p4-src">無常者，佛說「五受眾是無常」；苦者，佛說「無常則是苦」；無我者，佛說「苦即是無我」。無常者，佛示五受眾盡滅相；苦者，佛示如箭入心；無我者，佛示捨離相。無常者，示斷愛；苦者，示斷我習慢；無我者，示斷邪見。無常者，遮常見；苦者，遮今世涅槃樂見；無我者，遮著處。無常者，世間所可著常法是；苦者，世間計樂處是；無我者，世間所可計我牢固者是。</td><td>又以五重對照三想：本義上——無常是「五受眾無常」、苦是「無常則是苦」、無我是「苦即是無我」；佛所示上——無常示盡滅相、苦示如箭入心、無我示捨離相；所斷上——無常斷愛、苦斷我慢習、無我斷邪見；所遮上——無常遮常見、苦遮「今世涅槃樂」見、無我遮著處；所治世間執上——無常治世間所著常法、苦治所計樂處、無我治所計牢固之我。</td><td class="bh23p4-guan"><b>三想五重對照</b>——由本義·佛示·所斷·所遮·所治五面，並列無常苦無我。</td></tr><tr><td class="bh23p4-src">是為三相分別想。無我想緣、攝種種，如苦想中說。</td><td>這就是「三相（無常·苦·無我）的分別想」。無我想的所緣、所攝，如「苦想」中所說。</td><td class="bh23p4-guan"><b>三相分別想·判攝</b>——無我想攝緣同苦想，總為三相分別。</td></tr></tbody></table><p class="bh23p4-note">卷二十三第4品「無我想」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh23p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh23p4Btn"),BOX=document.getElementById("bh23p4Box"),MODAL=document.getElementById("bh23p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh23p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH23P4:END-->
 </body></html>
