@@ -2394,4 +2394,52 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH23P10:END-->
+<!--WY-BH23P11:BEGIN-->
+<style id="wy-bh23p11-css">
+.bh23p11-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh23p11-fabbox.show{display:block;}
+.bh23p11-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh23p11-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh23p11-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh23p11-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh23p11-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh23p11-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh23p11-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh23p11-modal.open{display:flex;}
+.bh23p11-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh23p11-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh23p11-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh23p11-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh23p11-close:hover{background:#dde2e6;}
+.bh23p11-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh23p11-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh23p11-tbl th,.bh23p11-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh23p11-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh23p11-tbl thead th:nth-child(1){width:32%;}.bh23p11-tbl thead th:nth-child(2){width:41%;}.bh23p11-tbl thead th:nth-child(3){width:27%;}
+.bh23p11-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh23p11-guan{background:#eef2f5;color:#37505f;}
+.bh23p11-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh23p11-tbl tbody tr:nth-child(even) td.bh23p11-guan{background:#e8eef2;}
+.bh23p11-tbl b{color:#8b2500;}
+.bh23p11-guan b{color:#2f6b5a;}
+.bh23p11-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh23p11-note b{color:#8b2500;}
+@media(max-width:900px){.bh23p11-fabbox{right:14px;}.bh23p11-tbl{font-size:11px;}.bh23p11-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh23p11-fabbox" id="bh23p11Box"><button class="bh23p11-btn" id="bh23p11Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh23p11-ic">譯</span><span class="bh23p11-ls"><span class="bh23p11-l1">本品 · 原文·白話·中觀</span><span class="bh23p11-l2">白話翻譯表</span></span></button></div><div class="bh23p11-modal" id="bh23p11Modal" role="dialog" aria-modal="true"><div class="bh23p11-card"><button class="bh23p11-close" id="bh23p11Close" type="button" aria-label="關閉">×</button><h3>卷二十三 · 第11品 白話翻譯表（三三昧）</h3><p class="sub">大智度論卷二十三·三三昧 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh23p11-tbl"><caption>三三昧 · 原文｜白話翻譯｜中觀概念（共9段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh23p11-src">經「三三昧：有覺有觀三昧，無覺有觀三昧，無覺無觀三昧。」</td><td>經說三種三昧：有覺有觀三昧、無覺有觀三昧、無覺無觀三昧。</td><td class="bh23p11-guan"><b>三三昧總目</b>——依覺觀之有無，分三種定境。</td></tr><tr><td class="bh23p11-src">論「一切禪定攝心，皆名為三摩提，秦言正心行處。是心從無始世界來，常曲不端；得是正心行處，心則端直。譬如蛇行常曲，入竹筒中則直。」</td><td>論：一切禪定的攝心都名「三摩提」，漢語譯作「正心行處」。此心從無始以來常彎曲不端；一旦得此「正心行處」，心便端直。譬如蛇行常彎曲，一入竹筒就直了。</td><td class="bh23p11-guan"><b>正心行處·蛇入竹筒</b>——三昧令散曲之心端直，如蛇入筒。</td></tr><tr><td class="bh23p11-src">論「是三昧三種：欲界、未到地、初禪，與覺觀相應故，名『有覺有觀』；二禪中間，但觀相應故，名『無覺有觀』；從第二禪乃至有頂地，非覺觀相應故，名『無覺無觀』。」</td><td>論：這三昧分三種——欲界·未到地·初禪與「覺、觀」相應，故名「有覺有觀」；二禪中間地只與「觀」相應，故名「無覺有觀」；從第二禪乃至有頂地不與覺觀相應，故名「無覺無觀」。</td><td class="bh23p11-guan"><b>三三昧地位</b>——依禪地深淺，覺觀由俱有→但觀→俱無。</td></tr><tr><td class="bh23p11-src">論「有人言：心有覺觀者無三昧，以是故，佛說有覺有觀三昧，但不牢固；覺觀力小微，是時可得有三昧。是覺觀能生三昧，亦能壞三昧；譬如風能生雨，亦能壞雨。三種善覺觀，能生初禪；得初禪時發大歡喜，覺觀故心散還失。以是故但說覺、觀。」</td><td>論：有人說「心有覺觀就沒有三昧」；因此佛說「有覺有觀三昧」——只是不牢固：覺觀之力微小時仍可得三昧。這覺觀既能生三昧、也能壞三昧；譬如風能生雨、也能壞雨。三種善覺觀能生初禪；得初禪時發大歡喜，卻因覺觀而心散還失。所以只說「覺、觀」。</td><td class="bh23p11-guan"><b>覺觀生壞三昧</b>——覺觀如風，能生亦能壞定；力微則定成、過則定散。</td></tr><tr><td class="bh23p11-src">論「有三種麁覺：欲覺，瞋覺，惱覺。有三種善覺：出要覺，無瞋覺，無惱覺。有三種細覺：親里覺，國土覺，不死覺。六種覺妨三昧，三種善覺能開三昧門。」</td><td>論：有三種粗覺——欲覺·瞋覺·惱覺；三種善覺——出要覺·無瞋覺·無惱覺；三種細覺——親里覺·國土覺·不死覺。其中六種覺（粗三細三）妨礙三昧，三種善覺則能開三昧之門。</td><td class="bh23p11-guan"><b>九覺矩陣</b>——粗細六覺妨定、三善覺開定門，覺有妨助之別。</td></tr><tr><td class="bh23p11-src">論「若覺觀過多，還失三昧；如風能使船，風過則壞船。如是種種分別『覺』、『觀』。」</td><td>論：若覺觀太多反而失去三昧；如風能行船、風太過就毀船。這樣種種分別「覺」與「觀」。</td><td class="bh23p11-guan"><b>覺觀過則壞定</b>——如風過壞船，覺觀須適度不可過。</td></tr><tr><td class="bh23p11-src">論有覺有觀法者，欲界、未到地、初禪中覺觀相應法，若善、若不善、若無記。無覺有觀法者，禪中間觀相應法，若善、若無記。無覺無觀法者，離覺觀法，一切色、心不相應行及無為法。</td><td>論：「有覺有觀法」指欲界·未到地·初禪中與覺觀相應的法（通善不善無記）；「無覺有觀法」指禪中間地與觀相應的法（善或無記）；「無覺無觀法」指離覺觀的法——即一切色法、心不相應行及無為法。</td><td class="bh23p11-guan"><b>三法判攝</b>——依覺觀有無，分判善不善無記及色心不相應行無為。</td></tr><tr><td class="bh23p11-src">論有覺有觀地者，欲界、未到地、梵世。無覺有觀地者，禪中間，善修是地作大梵王。無覺無觀地者，一切光音、一切遍淨、一切廣果、一切無色地。</td><td>論：三種「地」——「有覺有觀地」是欲界·未到地·梵世；「無覺有觀地」是禪中間地（善修此地者作大梵王）；「無覺無觀地」是一切光音天·遍淨天·廣果天及一切無色地。</td><td class="bh23p11-guan"><b>三地判攝</b>——三昧所屬禪地，由梵世至無色，覺觀漸離。</td></tr><tr><td class="bh23p11-src">論於中上妙者是三昧，何等是三昧？從空等三三昧乃至金剛，及阿羅漢、辟支佛諸三昧，觀十方佛三昧乃至首楞嚴三昧，從斷一切疑三昧乃至三昧王等諸佛三昧。</td><td>論：其中最上妙的才是究竟三昧。什麼是三昧？從空等三三昧乃至金剛三昧，及阿羅漢·辟支佛諸三昧，觀十方佛三昧乃至首楞嚴三昧，從斷一切疑三昧乃至三昧王等諸佛三昧（皆妙而可用者）。</td><td class="bh23p11-guan"><b>妙者取之</b>——由空三昧至首楞嚴·三昧王，取上妙可用的諸佛三昧。</td></tr></tbody></table><p class="bh23p11-note">卷二十三第11品「三三昧」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh23p11-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh23p11Btn"),BOX=document.getElementById("bh23p11Box"),MODAL=document.getElementById("bh23p11Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=10;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh23p11Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH23P11:END-->
 </body></html>
