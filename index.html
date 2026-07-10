@@ -2106,4 +2106,52 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-BH23P4:END-->
+<!--WY-BH23P5:BEGIN-->
+<style id="wy-bh23p5-css">
+.bh23p5-fabbox{position:fixed;right:22px;bottom:260px;z-index:123;display:none;}
+.bh23p5-fabbox.show{display:block;}
+.bh23p5-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#4a5a68,#232d36);padding:8px 15px;border-radius:22px;border:1px solid rgba(150,180,205,.55);box-shadow:0 4px 16px rgba(0,0,0,.32);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.bh23p5-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(120,160,200,.5);}
+.bh23p5-ic{font-size:15px;line-height:1;color:#bcd4ea;}
+.bh23p5-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.bh23p5-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.bh23p5-l2{font-size:13px;font-weight:700;color:#eef4fa;white-space:nowrap;}
+.bh23p5-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(22,26,30,.6);padding:16px;}
+.bh23p5-modal.open{display:flex;}
+.bh23p5-card{position:relative;background:#fbf7ee;max-width:1080px;width:100%;max-height:90vh;overflow:auto;border:1px solid #d3cdbf;border-radius:14px;padding:28px 22px 20px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.bh23p5-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#3f5160;}
+.bh23p5-card .sub{margin:0 0 12px;font-family:"Noto Sans TC",sans-serif;font-size:12.5px;color:#5b6b78;}
+.bh23p5-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#eceef0;color:#3f5160;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.bh23p5-close:hover{background:#dde2e6;}
+.bh23p5-tbl{width:100%;border-collapse:collapse;font-size:12.8px;margin:.2em 0 1em;}
+.bh23p5-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#3f5160;font-size:14px;text-align:left;margin:.4em 0 .5em;}
+.bh23p5-tbl th,.bh23p5-tbl td{border:1px solid #d8d2c4;padding:.5em .65em;text-align:left;vertical-align:top;line-height:1.72;}
+.bh23p5-tbl thead th{background:#3f5160;color:#eef4fa;font-weight:700;position:sticky;top:0;}
+.bh23p5-tbl thead th:nth-child(1){width:32%;}.bh23p5-tbl thead th:nth-child(2){width:41%;}.bh23p5-tbl thead th:nth-child(3){width:27%;}
+.bh23p5-src{font-family:"Noto Serif TC",serif;color:#5a4636;background:#f6efe0;letter-spacing:.3px;}
+.bh23p5-guan{background:#eef2f5;color:#37505f;}
+.bh23p5-tbl tbody tr:nth-child(even) td{background:#faf6ee;}
+.bh23p5-tbl tbody tr:nth-child(even) td.bh23p5-guan{background:#e8eef2;}
+.bh23p5-tbl b{color:#8b2500;}
+.bh23p5-guan b{color:#2f6b5a;}
+.bh23p5-note{font-size:12px;color:#4a5560;line-height:1.95;background:#eef2f5;border-left:3px solid #7f9cb5;border-radius:0 6px 6px 0;padding:11px 14px;margin:2px 0 0;}
+.bh23p5-note b{color:#8b2500;}
+@media(max-width:900px){.bh23p5-fabbox{right:14px;}.bh23p5-tbl{font-size:11px;}.bh23p5-card{padding:22px 12px 14px;}}
+</style>
+<div class="bh23p5-fabbox" id="bh23p5Box"><button class="bh23p5-btn" id="bh23p5Btn" type="button" aria-label="開啟白話翻譯表"><span class="bh23p5-ic">譯</span><span class="bh23p5-ls"><span class="bh23p5-l1">本品 · 原文·白話·中觀</span><span class="bh23p5-l2">白話翻譯表</span></span></button></div><div class="bh23p5-modal" id="bh23p5Modal" role="dialog" aria-modal="true"><div class="bh23p5-card"><button class="bh23p5-close" id="bh23p5Close" type="button" aria-label="關閉">×</button><h3>卷二十三 · 第5品 白話翻譯表（食厭想）</h3><p class="sub">大智度論卷二十三·食厭想 · 原文↔白話↔中觀概念 逐段對照</p><table class="bh23p5-tbl"><caption>食厭想 · 原文｜白話翻譯｜中觀概念（共6段）</caption><thead><tr><th>原文</th><th>白話翻譯</th><th>中觀概念</th></tr></thead><tbody><tr><td class="bh23p5-src">「食厭想」者，觀是食從不淨因緣生。如肉從精血水道生，是為膿虫住處；如酥乳酪，血變所成，與爛膿無異；廚人污垢，種種不淨。若著口中，腦有爛涎，二道流下，與唾和合，然後成味，其狀如吐，從腹門入；地持、水爛，風動、火煮，如釜熟糜，滓濁下沈，清者在上。譬如釀酒，滓濁為屎，清者為尿。腰有三孔，風吹膩汁，散入百脈，與先血和合，凝變為肉。從新肉生脂、骨、髓，從是中生身根；從新舊肉合生五情根，從五根生五識；五識次第生意識，分別取相，籌量好醜；然後生我、我所心等諸煩惱，及諸罪業。觀食如是本末因緣種種不淨，知內四大與外四大無異，但以我見故，強為我有。</td><td>所謂「食厭想」，是觀食物從不淨的因緣而生：肉從精血水道生、是膿虫住處；酥乳酪是血變所成、與爛膿無異；廚人污垢種種不淨。食物入口，腦中爛涎兩道流下與唾和合才成味、其狀如吐，從腹門而入；經地大持、水大爛、風大動、火大煮，如鍋煮糜、渣濁下沈清者在上；譬如釀酒渣濁成屎、清者成尿。腰有三孔，風吹膩汁散入百脈與原血和合凝變為肉；由新肉生脂骨髓身根、新舊肉合生五情根、生五識意識，分別取相、籌量好醜，然後生我我所等煩惱及諸罪業。這樣觀食本末因緣種種不淨，就知內四大與外四大並無不同，只因「我見」才勉強執為「我所有」。</td><td class="bh23p5-guan"><b>食本末不淨·內外四大無異</b>——觀食緣起不淨，破對食的貪著與我所執。</td></tr><tr><td class="bh23p5-src">復次，思惟此食，墾植耘除，收穫蹂治，舂磨洮汰，炊煮乃成，用功甚重；計一鉢之飯，作夫流汗集合，量之食少汗多。此食作之功重，辛苦如是，入口食之，即成不淨，無所一直，宿昔之間變為屎尿。本是美味，人之所嗜；變成不淨，惡不欲見。</td><td>再者，思惟此食：從墾地種植、除草收穫、踩打舂磨、淘洗炊煮才成，用功極重；算一鉢飯是農夫流汗匯集而成、食少汗多。製作如此辛苦，入口卻立即變成不淨、一無可取，一夜之間變為屎尿；本是美味人所嗜好，變成不淨令人厭惡不欲見。</td><td class="bh23p5-guan"><b>美味成穢·遷變無常</b>——食由重功而成、入口即穢，顯無常無實可貪。</td></tr><tr><td class="bh23p5-src">行者自思：「如此弊食，我若貪著，當墮地獄噉燒鐵丸；從地獄出，當作畜生：牛、羊、駱駝，償其宿債；或作猪狗，常噉糞除。」如是觀食，則生厭想；因食厭故，於五欲中皆厭。</td><td>行者自思：「這樣的粗弊之食，我若貪著，將墮地獄吞燒鐵丸；從地獄出當作畜生——牛羊駱駝償還宿債，或作猪狗常吃糞穢。」這樣觀食就生厭離想；因對食生厭，於五欲也都厭離。</td><td class="bh23p5-guan"><b>由食厭破五欲</b>——貪食招惡道；觀食生厭則於五欲俱厭。</td></tr><tr><td class="bh23p5-src">譬如一婆羅門修淨潔法，有事緣故到不淨國；自思：「我當云何得免此不淨？唯當乾食，可得清淨。」見一老母賣白髓餅，而語之言：「我有因緣住此百日，常作此餅送來，當多與價！」老母日日作餅送之；婆羅門貪著，飽食歡喜。老母作餅，初時白淨，後轉無色、無味。即問老母：「何緣爾耶？」母言：「癰瘡差故。」婆羅門問：「此言何謂？」母言：「我大家夫人隱處生癰，以麵、酥、甘草拊之，癰熟膿出，和合酥餅；日日如是，以此作餅與汝，是以餅好。今夫人癰差，我當何處更得？」婆羅門聞之，兩拳打頭，搥胸吁嘔：「我當云何破此淨法？我為了矣！」棄捨緣事，馳還本國。</td><td>譬如一位修「淨潔法」的婆羅門因事到「不淨國」，心想只有吃乾食才清淨。他見老母賣白髓餅，便請她天天做餅送來、多給錢。老母的餅起初白淨、後轉無色無味；他問緣故，老母說是「癰瘡好了」——原來主人夫人隱處生癰，用麵酥甘草敷之、癰熟膿出就和進酥餅裡，天天如此，故餅好；如今夫人癰好，無處再得。婆羅門聽了兩拳打頭、搥胸嘔吐：「我怎麼破了淨潔法？我完了！」便捨事奔回本國。</td><td class="bh23p5-guan"><b>淨想本空·白髓餅喻</b>——所貪「淨潔」本是膿血；淨相由妄計、實無自性。</td></tr><tr><td class="bh23p5-src">行者亦如是，著是飲食，歡喜樂噉，見其好色細滑，香美可口，不觀不淨；後受苦報，悔將何及！若能觀食本末如是，生惡厭心，因離食欲，四欲皆捨，於欲界中樂悉皆捨離；斷此五欲，於五下分結亦斷。</td><td>行者也是如此：貪著飲食、歡喜樂吃，只見好色細滑香美，卻不觀其不淨；日後受苦報時後悔哪來得及！若能這樣觀食的本末、生起厭惡之心，因而遠離食欲，其餘四欲也都捨；斷這五欲，連五下分結也隨之斷。</td><td class="bh23p5-guan"><b>觀食斷五下分結</b>——不著食味、觀不淨生厭，斷五欲乃至五下分結。</td></tr><tr><td class="bh23p5-src">如是等種種因緣惡罪，不復樂著，是名「食厭想」。</td><td>以這種種因緣的惡罪，而不再樂著飲食，就名為「食厭想」。</td><td class="bh23p5-guan"><b>食厭想總結</b>——觀食種種過患而不樂著，即食厭想。</td></tr></tbody></table><p class="bh23p5-note">卷二十三第5品「食厭想」原文·白話·中觀三欄對照。白話忠於原意、不增不減；中觀欄標出各段所涉的中觀義理。</p></div></div>
+<script id="wy-bh23p5-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("bh23p5Btn"),BOX=document.getElementById("bh23p5Box"),MODAL=document.getElementById("bh23p5Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=4;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+function upd(){BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="bh23p5Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-BH23P5:END-->
 </body></html>
