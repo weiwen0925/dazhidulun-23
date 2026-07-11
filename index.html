@@ -2567,17 +2567,22 @@ var CH=document.querySelectorAll('section.chapter');
 var EG=[].slice.call(document.querySelectorAll('.wy-eg'));
 var BOX=document.querySelector('.wy-ebox');
 if(!CH.length||!EG.length||!BOX)return;
-var FSEL='#wyVideoBtn,#wyVideoFab,#wyFab,#vid-floating,#floatingYt,.wy-vbtn,.wy-video-fab,.floating-yt',_fab,_ft=false;
-function fab(){
-  if(_fab&&_fab.isConnected)return _fab;
-  if(_ft)return _fab;_ft=true;
-  _fab=document.querySelector(FSEL);
-  if(_fab)return _fab;
-  var a=document.querySelectorAll('a,button,div'),bw=0;
-  for(var i=0;i<a.length;i++){var e=a[i];if(e===BOX||BOX.contains(e)||e.id==='backTop')continue;var st;try{st=getComputedStyle(e);}catch(_){continue;}if(st.position!=='fixed')continue;var r=e.getBoundingClientRect();if(r.width<70||r.height<24||r.height>96)continue;if(r.right<window.innerWidth-60||r.bottom<window.innerHeight-220)continue;if(r.width>bw){bw=r.width;_fab=e;}}
-  return _fab;
+var _egself=BOX;
+function topEdge(){
+  var best=null,all=document.querySelectorAll('a,button,div');
+  for(var i=0;i<all.length;i++){var e=all[i];
+    if(e===_egself||_egself.contains(e)||e.id==='backTop')continue;
+    var st;try{st=getComputedStyle(e);}catch(_){continue;}
+    if(st.position!=='fixed'||st.display==='none'||st.visibility==='hidden')continue;
+    var r=e.getBoundingClientRect();
+    if(r.width<70||r.height<20||r.height>120)continue;
+    if(r.right<window.innerWidth-70)continue;/*右側*/
+    if(r.bottom<window.innerHeight-380||r.top>window.innerHeight-40)continue;/*近底部按鈕堆*/
+    if(best===null||r.top<best)best=r.top;/*取最高(top最小)*/
+  }
+  return best;
 }
-function place(){var bpx=78,f=fab();if(f){var r=f.getBoundingClientRect(),st=getComputedStyle(f);if(r.height>0&&st.display!=='none'&&st.visibility!=='hidden'){bpx=Math.round(window.innerHeight-r.top)+10;}}BOX.style.bottom=bpx+'px';}
+function place(){var t=topEdge();BOX.style.bottom=(t!==null?Math.round(window.innerHeight-t)+8:78)+'px';}
 function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
 function upd(){place();var idx=curIdx();for(var i=0;i<EG.length;i++){var m=(+EG[i].getAttribute('data-pidx'))===idx;EG[i].classList.toggle('show',m);if(!m)EG[i].classList.remove('open');}}
 document.addEventListener('click',function(e){var h=e.target.closest?e.target.closest('.wy-eg-head'):null;if(h){e.preventDefault();h.parentNode.classList.toggle('open');}},false);
